@@ -1,0 +1,11 @@
+diff a/カードゲームテストver2.4/Game.cpp b/カードゲームテストver2.4/Game.cpp	(rejected hunks)
+@@ -23,10 +23,15 @@
+  #include "sprite.h"
+  #include "light.h"
+  #include "DrawDamageManager.h"
+  #include <map>
+  #include "button.h"
+  #include "meshsky.h"
+  std::map<std::string, Button> g_GameButton;
+  D3DXVECTOR2 g_GamewMousePos;
+  Particle_Manager g_Particle;

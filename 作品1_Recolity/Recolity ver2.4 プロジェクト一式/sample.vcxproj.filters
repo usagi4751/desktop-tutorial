@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="マップロード">
+      <UniqueIdentifier>{3bd9dc40-c7f4-45e2-8bb1-1371c3f827b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="effect">
+      <UniqueIdentifier>{73fa197e-faa4-4f87-940b-b4449b8ead79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy">
+      <UniqueIdentifier>{7d9e8146-ef4d-46c4-bed1-2fbe58e7790a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="particle">
+      <UniqueIdentifier>{3642dd11-d3ea-441d-86d4-015ee3eb079e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="card">
+      <UniqueIdentifier>{04141fe6-4b62-4da8-a179-c628c7b7cccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="carduseprocess">
+      <UniqueIdentifier>{05d01444-b9fe-4942-880c-b5ba059c70c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawfunction">
+      <UniqueIdentifier>{881ac75e-9c38-4536-8d24-04e8908eee26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="card\Data">
+      <UniqueIdentifier>{7bc5e0c0-058f-4094-86d5-a21be3438a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="card\Menu">
+      <UniqueIdentifier>{0474c719-cbbc-4282-8d26-940c606fe270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="card\Play">
+      <UniqueIdentifier>{a71a2cd5-6c73-489c-8a29-1655939eb8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="card\Play_Use">
+      <UniqueIdentifier>{689a35c7-c0a1-46ec-b1da-a7ae8a9e4c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bullet">
+      <UniqueIdentifier>{fa915754-94b5-44f1-bc51-924428fcf653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attribute">
+      <UniqueIdentifier>{84bf471a-df28-4dab-895a-074520b76305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collision">
+      <UniqueIdentifier>{987a9f82-a198-405f-be29-0fb18c4d15b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy\bot">
+      <UniqueIdentifier>{5573b202-46d2-4fb5-b9dd-5fbbe629ce40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy\insect">
+      <UniqueIdentifier>{6f19f1fe-1880-4248-ab6d-2909202c17da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{89af40a0-c1d4-4e84-a5ed-9ad503f23287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{6e6df0a4-820c-4975-8e70-d07a8bdeed2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="floor">
+      <UniqueIdentifier>{8c330c0e-4827-4ac7-ba57-b4e20891ae3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="card\dropcard">
+      <UniqueIdentifier>{c9f15ca0-f211-4115-8b50-1913f41e23d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="light">
+      <UniqueIdentifier>{f1121512-edb3-4998-8f96-1c60766aae6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DrawDamage">
+      <UniqueIdentifier>{e2e480c0-8a4f-4ec7-a1da-7dc8935f3588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="button">
+      <UniqueIdentifier>{e9d2b660-eb7a-4a30-b9dc-948c31347874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy\boss2">
+      <UniqueIdentifier>{c7583ab0-a4c9-4ed5-9697-23870182a966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sky">
+      <UniqueIdentifier>{24e85fcc-cf84-4d86-8489-c02f66b371b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy\boss3">
+      <UniqueIdentifier>{8b669267-304f-408e-8481-8a53471342cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{b6f82202-aac0-4a58-baab-38611418082c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadMapTex.h">
+      <Filter>マップロード</Filter>
+    </ClInclude>
+    <ClInclude Include="baseeffect.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="sloweffect.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectmanager.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="lockeffect.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="slipdamage.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="regeneration.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>drawfunction</Filter>
+    </ClInclude>
+    <ClInclude Include="Flames fire.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="health.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="baseparticle.h">
+      <Filter>particle</Filter>
+    </ClInclude>
+    <ClInclude Include="flameparticle.h">
+      <Filter>particle</Filter>
+    </ClInclude>
+    <ClInclude Include="particlemanager.h">
+      <Filter>particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="card_base.h">
+      <Filter>card</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_single_fier.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="card.h">
+      <Filter>card</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_five_fire.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="cardplayuse.h">
+      <Filter>card\Play_Use</Filter>
+    </ClInclude>
+    <ClInclude Include="cardplayuse_drawtimer.h">
+      <Filter>card\Play_Use</Filter>
+    </ClInclude>
+    <ClInclude Include="cardplayuse_mana.h">
+      <Filter>card\Play_Use</Filter>
+    </ClInclude>
+    <ClInclude Include="cardplayuse_manager.h">
+      <Filter>card\Play_Use</Filter>
+    </ClInclude>
+    <ClInclude Include="carddatamanager.h">
+      <Filter>card\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="cardmenumanager.h">
+      <Filter>card\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cardplaygetcardh.h">
+      <Filter>card\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="cardplaypdeckmanager.h">
+      <Filter>card\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="cardplayuse_player.h">
+      <Filter>card\Play_Use</Filter>
+    </ClInclude>
+    <ClInclude Include="base_object.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Model_particle.h">
+      <Filter>particle</Filter>
+    </ClInclude>
+    <ClInclude Include="normal_bullet.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_management.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_interface.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="base_bullet.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="base_enemy.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="base_character.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="base_attribute.h">
+      <Filter>attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="water_attribute.h">
+      <Filter>attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="wind_attribute.h">
+      <Filter>attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="attribute_management.h">
+      <Filter>attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="fire_attribute.h">
+      <Filter>attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_management.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_management.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>enemy\bot</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_enemy.h">
+      <Filter>enemy\bot</Filter>
+    </ClInclude>
+    <ClInclude Include="normal_enemy.h">
+      <Filter>enemy\bot</Filter>
+    </ClInclude>
+    <ClInclude Include="patrol_enemy.h">
+      <Filter>enemy\bot</Filter>
+    </ClInclude>
+    <ClInclude Include="scorpion.h">
+      <Filter>enemy\insect</Filter>
+    </ClInclude>
+    <ClInclude Include="scorpion_leg.h">
+      <Filter>enemy\insect</Filter>
+    </ClInclude>
+    <ClInclude Include="scorpion_tail.h">
+      <Filter>enemy\insect</Filter>
+    </ClInclude>
+    <ClInclude Include="moth.h">
+      <Filter>enemy\insect</Filter>
+    </ClInclude>
+    <ClInclude Include="moth_wing.h">
+      <Filter>enemy\insect</Filter>
+    </ClInclude>
+    <ClInclude Include="spider.h">
+      <Filter>enemy\insect</Filter>
+    </ClInclude>
+    <ClInclude Include="spider_leg.h">
+      <Filter>enemy\insect</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>drawfunction</Filter>
+    </ClInclude>
+    <ClInclude Include="floor.h">
+      <Filter>floor</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_fan_fire.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_circle_fire.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_Slug_fire.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="normal_bullet_life_penetration.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="dropcard.h">
+      <Filter>card\dropcard</Filter>
+    </ClInclude>
+    <ClInclude Include="card_heal_moment.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="card_heal_regen.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="cannon_bullet.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawDamageManager.h">
+      <Filter>DrawDamage</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawDamage.h">
+      <Filter>DrawDamage</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawDamageDot.h">
+      <Filter>DrawDamage</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_single_water.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="nomal_polgon_particle.h">
+      <Filter>particle</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>button</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_deck.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_stage.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_five_water.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_single_wind.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="pull_polgon_particle.h">
+      <Filter>particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cardmanuget.h">
+      <Filter>card\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_five_wind.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_circle_water.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_circle_wind.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_fan_water.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_fan_wind.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_Slug_water.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="card_bullet_Slug_wind.h">
+      <Filter>carduseprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="boss2_main.h">
+      <Filter>enemy\boss2</Filter>
+    </ClInclude>
+    <ClInclude Include="Model_SetScl_particle.h">
+      <Filter>particle</Filter>
+    </ClInclude>
+    <ClInclude Include="hook_bullet.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="nomal_polgon_particle_CR.h">
+      <Filter>particle</Filter>
+    </ClInclude>
+    <ClInclude Include="time_bom.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="meshsky.h">
+      <Filter>sky</Filter>
+    </ClInclude>
+    <ClInclude Include="boss3_main.h">
+      <Filter>enemy\boss3</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadMapTex.cpp">
+      <Filter>マップロード</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>drawfunction</Filter>
+    </ClCompile>
+    <ClCompile Include="flameparticle.cpp">
+      <Filter>particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_single_fier.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="card.cpp">
+      <Filter>card</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_five_fire.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="cardplayuse_parameter.h">
+      <Filter>card\Play_Use</Filter>
+    </ClCompile>
+    <ClCompile Include="cardmenumanager.cpp">
+      <Filter>card\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="cardplaygetcard.cpp">
+      <Filter>card\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="cardplaypdeckmanager.cpp">
+      <Filter>card\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="cardplayuse_manager.cpp">
+      <Filter>card\Play_Use</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Model_particle.cpp">
+      <Filter>particle</Filter>
+    </ClCompile>
+    <ClCompile Include="normal_bullet.cpp">
+      <Filter>bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet_management.cpp">
+      <Filter>bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet_interface.cpp">
+      <Filter>bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="base_enemy.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="base_character.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="base_object.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="base_bullet.cpp">
+      <Filter>bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="base_attribute.cpp">
+      <Filter>attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="water_attribute.cpp">
+      <Filter>attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="wind_attribute.cpp">
+      <Filter>attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="attribute_management.cpp">
+      <Filter>attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="fire_attribute.cpp">
+      <Filter>attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_management.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_management.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>enemy\bot</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet_enemy.cpp">
+      <Filter>enemy\bot</Filter>
+    </ClCompile>
+    <ClCompile Include="normal_enemy.cpp">
+      <Filter>enemy\bot</Filter>
+    </ClCompile>
+    <ClCompile Include="patrol_enemy.cpp">
+      <Filter>enemy\bot</Filter>
+    </ClCompile>
+    <ClCompile Include="scorpion.cpp">
+      <Filter>enemy\insect</Filter>
+    </ClCompile>
+    <ClCompile Include="scorpion_leg.cpp">
+      <Filter>enemy\insect</Filter>
+    </ClCompile>
+    <ClCompile Include="scorpion_tail.cpp">
+      <Filter>enemy\insect</Filter>
+    </ClCompile>
+    <ClCompile Include="moth.cpp">
+      <Filter>enemy\insect</Filter>
+    </ClCompile>
+    <ClCompile Include="moth_wing.cpp">
+      <Filter>enemy\insect</Filter>
+    </ClCompile>
+    <ClCompile Include="spider.cpp">
+      <Filter>enemy\insect</Filter>
+    </ClCompile>
+    <ClCompile Include="spider_leg.cpp">
+      <Filter>enemy\insect</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>drawfunction</Filter>
+    </ClCompile>
+    <ClCompile Include="floor.cpp">
+      <Filter>floor</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_circle_fire.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_fan_fire.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_Slug_fire.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="Flames fire.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+    <ClCompile Include="slipdamage.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+    <ClCompile Include="sloweffect.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+    <ClCompile Include="lockeffect.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+    <ClCompile Include="regeneration.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+    <ClCompile Include="normal_bullet_life_penetration.cpp">
+      <Filter>bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cardplayuse.cpp">
+      <Filter>card\Play_Use</Filter>
+    </ClCompile>
+    <ClCompile Include="dropcard.cpp">
+      <Filter>card\dropcard</Filter>
+    </ClCompile>
+    <ClCompile Include="card_heal_moment.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="card_heal_regen.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="cannon_bullet.cpp">
+      <Filter>bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>light</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawDamage.cpp">
+      <Filter>DrawDamage</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawDamageManager.cpp">
+      <Filter>DrawDamage</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawDamageDot.cpp">
+      <Filter>DrawDamage</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_single_water.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="nomal_polgon_particle.cpp">
+      <Filter>particle</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_deck.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_stage.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_five_water.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_single_wind.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="pull_polgon_particle.cpp">
+      <Filter>particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cardmanuget.cpp">
+      <Filter>card\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_five_wind.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="effectmanager.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_circle_water.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_circle_wind.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_fan_water.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_fan_wind.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_Slug_water.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="card_bullet_Slug_wind.cpp">
+      <Filter>carduseprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="boss2_main.cpp">
+      <Filter>enemy\boss2</Filter>
+    </ClCompile>
+    <ClCompile Include="Model_SetScl_particle.cpp">
+      <Filter>particle</Filter>
+    </ClCompile>
+    <ClCompile Include="hook_bullet.cpp">
+      <Filter>bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="nomal_polgon_particle_CR.cpp">
+      <Filter>particle</Filter>
+    </ClCompile>
+    <ClCompile Include="time_bom.cpp">
+      <Filter>bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="meshsky.cpp">
+      <Filter>sky</Filter>
+    </ClCompile>
+    <ClCompile Include="boss3_main.cpp">
+      <Filter>enemy\boss3</Filter>
+    </ClCompile>
+    <ClCompile Include="cardplayuse_parameter.cpp">
+      <Filter>card\Play_Use</Filter>
+    </ClCompile>
+    <ClCompile Include="carddatamanager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sample.sln" />
+  </ItemGroup>
+</Project>

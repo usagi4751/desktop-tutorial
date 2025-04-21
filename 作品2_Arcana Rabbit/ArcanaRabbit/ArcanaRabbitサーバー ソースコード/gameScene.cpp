@@ -15,7 +15,6 @@
 #include "showobjext.h"
 #include "material.h"
 #include "dropitem.h"
-#include "Emitterportal.h"
 #include "meshField.h"
 #include "shadowVolume.h"
 void gameScene::Init()

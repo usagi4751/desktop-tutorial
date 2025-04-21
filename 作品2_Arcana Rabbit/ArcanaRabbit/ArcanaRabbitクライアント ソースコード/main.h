@@ -63,6 +63,7 @@ HWND GetWndprccWindow();
 
 
 //ウィンドウのDPIの取得
+
 float GetDPI();
 //0～1のfloat型のランダムな数
 float frand(void);

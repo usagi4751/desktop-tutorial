@@ -24,10 +24,12 @@
 
 #include "dinput.h"
 
+
 #include <DirectXMath.h>
+
+
+//$(SolutionDir)../../Microsoft DirectX SDK % 28June 2010 % 29\Lib\x64
 using namespace DirectX;
-
-
 #include "DirectXTex.h"
 
 #pragma warning(disable:4005)

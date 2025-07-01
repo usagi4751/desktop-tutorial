@@ -1,3 +1,0 @@
-asphalt.png
-dirt2.png
-none.png

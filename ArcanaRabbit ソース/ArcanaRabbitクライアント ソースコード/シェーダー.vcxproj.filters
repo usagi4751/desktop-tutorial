@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{7a5bd6f0-1561-4b59-aed4-8c5f46595bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="text">
+      <UniqueIdentifier>{e7531754-86e5-4612-9ba1-9c1dc1a5de41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="draw2d">
+      <UniqueIdentifier>{63754ad8-629e-4956-8355-36af4711708a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="particle">
+      <UniqueIdentifier>{65dbda2d-184a-4a6f-babc-3bd5c7c92e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textuer">
+      <UniqueIdentifier>{36019dbf-6f52-48cd-8bbd-33ea3b782aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="particle\Emitter">
+      <UniqueIdentifier>{4a506689-9867-4855-ba85-e26a8ddd40c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="particle\particle">
+      <UniqueIdentifier>{52e4aace-461a-4b9e-81db-d9c98f3f8eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{9648da4b-3f70-4575-aff8-b717fda87bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{fb94635f-27dc-40a4-b6c7-b8952b8b3db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ItemData">
+      <UniqueIdentifier>{296b8e56-39bc-4db5-be91-ae3e9a697d8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\skillData">
+      <UniqueIdentifier>{27ce19b2-1397-4402-8950-cdae978b3086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullet">
+      <UniqueIdentifier>{d5f9ad93-36b7-4939-875e-426938d87df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{7c2350fb-be9a-4337-a3ca-9e7c6f1bb529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".h">
+      <UniqueIdentifier>{332b7e84-345e-4cc4-aa7b-b88f603f4965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UDP">
+      <UniqueIdentifier>{54d4f5d5-043d-42f0-b70b-e8589a712de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\基底クラス">
+      <UniqueIdentifier>{732ce68f-c356-4a3e-8b68-578ab1f0fb33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity">
+      <UniqueIdentifier>{11e8802d-b677-48cc-a3e2-101ad5bac1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\Enemy">
+      <UniqueIdentifier>{8414c728-3c48-458c-a104-1c2b81c0ff99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entity\test">
+      <UniqueIdentifier>{4be8a5f2-32fa-4988-8b22-6195401dd70a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon2D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon3D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="modelRenderer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="draw2d_Manager.h">
+      <Filter>draw2d</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="titleScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="particlemanager.h">
+      <Filter>particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>textuer</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>textuer</Filter>
+    </ClInclude>
+    <ClInclude Include="particleInterface.h">
+      <Filter>particle</Filter>
+    </ClInclude>
+    <ClInclude Include="particleEmitter.h">
+      <Filter>particle\Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>particle\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitterbrast.h">
+      <Filter>particle\Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="floor.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="showobjext.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stageScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="animationModel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="DictionaryItem.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DictionarySkill.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Stick.h">
+      <Filter>Game\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill_FireBall.h">
+      <Filter>Game\skillData</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_wand.h">
+      <Filter>Game\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Slaghelmet.h">
+      <Filter>Game\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_SlaghChest.h">
+      <Filter>Game\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_SlaghLeggings.h">
+      <Filter>Game\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_SlagBoots.h">
+      <Filter>Game\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="dropitem.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fireball.h">
+      <Filter>Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitterframe.h">
+      <Filter>particle\Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_SlagSword.h">
+      <Filter>Game\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene2.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitterportal.h">
+      <Filter>particle\Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="meshField.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene3.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitterbezier.h">
+      <Filter>particle\Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="shadowVolume.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TestUDPScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="TextForm.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Buttun.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPManager.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Game\基底クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDataBase.h">
+      <Filter>Game\基底クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="SkilldataBase.h">
+      <Filter>Game\基底クラス</Filter>
+    </ClInclude>
+    <ClInclude Include="Member.h">
+      <Filter>entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyData.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>entity\test</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyDataManager.h">
+      <Filter>entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEnemyData.h">
+      <Filter>entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawName.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon2D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon3D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="modelRenderer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="draw2d_Manager.cpp">
+      <Filter>draw2d</Filter>
+    </ClCompile>
+    <ClCompile Include="titleScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="particlemanager.cpp">
+      <Filter>particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>textuer</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>textuer</Filter>
+    </ClCompile>
+    <ClCompile Include="particleInterface.cpp">
+      <Filter>particle</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>particle\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitterbrast.cpp">
+      <Filter>particle\Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="showobjext.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="stageScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="animationModel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Stick.cpp">
+      <Filter>Game\ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="DictionarySkill.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill_FireBall.cpp">
+      <Filter>Game\skillData</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_wand.cpp">
+      <Filter>Game\ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="DictionaryItem.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Slaghelmet.cpp">
+      <Filter>Game\ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_SlaghChest.cpp">
+      <Filter>Game\ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_SlaghLeggings.cpp">
+      <Filter>Game\ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_SlagBoots.cpp">
+      <Filter>Game\ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="dropitem.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="fireball.cpp">
+      <Filter>Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitterframe.cpp">
+      <Filter>particle\Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_SlagSword.cpp">
+      <Filter>Game\ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene2.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitterportal.cpp">
+      <Filter>particle\Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="meshField.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene3.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitterbezier.cpp">
+      <Filter>particle\Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="shadowVolume.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TestUDPScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>.h</Filter>
+    </ClCompile>
+    <ClCompile Include="TextForm.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Buttun.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="UDP.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPManager.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Game\基底クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemDataBase.cpp">
+      <Filter>Game\基底クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="SkilldataBase.cpp">
+      <Filter>Game\基底クラス</Filter>
+    </ClCompile>
+    <ClCompile Include="Member.cpp">
+      <Filter>entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyData.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>entity\test</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyDataManager.cpp">
+      <Filter>entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEnemyData.cpp">
+      <Filter>entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawName.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="floor.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\common.hlsl" />
+    <FxCompile Include="shader\unlitTexturePS.hlsl" />
+    <FxCompile Include="shader\unlitTextureVS.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
